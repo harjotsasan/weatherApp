@@ -1,0 +1,35 @@
+*{
+    margin: 0rem;
+    padding: 0.2rem 1rem;
+    box-sizing: border-box;
+}
+.weatherCardContainer{
+    width: fit-content;
+    height: auto;
+    margin: auto;
+    padding-top: 1rem;
+}
+.weatherCard form input{
+    width: fit-content;
+    height: auto;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    color: salmon;
+    text-transform: capitalize;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    border-bottom: 0.1rem solid darkslategray;
+    box-shadow: 0.05rem 0.05rem 0.05rem 0.05rem darkslateblue;
+}.weatherCard form input::placeholder{color: salmon;}
+.weatherCard form button{
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    color: #FFCA00;
+    background-color: #0035FF;
+    border: transparent;
+    border-radius: 0.80rem;
+    box-shadow: 0.05rem 0.05rem 0.05rem 0.05rem black;;
+}.weatherCard form button:hover{color:#0035FF; background-color: #FFCA00;}

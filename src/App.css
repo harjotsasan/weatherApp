@@ -1,0 +1,68 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+.linearGradientBackGround{
+    width: fit-content;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+}
+.app{
+    width: fit-content;
+    height: 100%;
+    margin: 0.5rem auto;
+    background-image: url('./Assets/cold-bg.jpg');
+    background-size: cover;
+    background-position: bottom;   
+}
+.warm{background-image: url('./Assets/warm-bg.jpg');}
+.currentLocationButtonContainer{
+    background-color: transparent;
+    width: fit-content;
+    margin: auto;
+}
+.currentLocationButtonContainer .currentLocation{
+    padding: 0.5rem 1rem;
+    margin: 1rem auto 0 auto;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 0.1rem solid black;
+    border-radius: 0.45rem;
+}
+.currentLocationButtonContainer .currentLocation:hover{
+    color: black;
+    border-bottom: 0.1rem solid white;
+    font-size: 1.15rem;
+}
+.container{
+    width: fit-content;
+    height: 90vh;
+    margin: auto;
+    padding: 4rem 4rem 0 4rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+.cityCountry{
+    color: whitesmoke;
+    font-size: 4rem;
+    background-color: transparent;
+}
+.degreeCelsius{
+    font-size: 3rem;
+    margin-top: 0.5rem;
+    color: darkslateblue;
+    width: fit-content;
+    margin: auto;
+    border: none;
+    background-color: rgba(216, 191, 216, 0.35);
+    border-radius: 1.2rem;
+    padding: 0 1rem;
+}
+.weatherDescription{
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    color: thistle;
+}
